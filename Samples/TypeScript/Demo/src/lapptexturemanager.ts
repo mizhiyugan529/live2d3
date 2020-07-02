@@ -70,7 +70,7 @@ export class LAppTextureManager {
 
     // データのオンロードをトリガーにする
     const img = new Image();
-    img.crossOrigin='Anonymous';
+    img.crossOrigin = 'Anonymous';
     img.onload = (): void => {
       // テクスチャオブジェクトの作成
       const tex: WebGLTexture = gl.createTexture();

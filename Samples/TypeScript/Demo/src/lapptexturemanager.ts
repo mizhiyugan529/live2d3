@@ -64,7 +64,8 @@ export class LAppTextureManager {
         ite.ptr().img = new Image();
         ite.ptr().img.crossOrigin = 'Anonymous';
         ite.ptr().img.onload = (): void => callback(ite.ptr());
-        ite.ptr().img.src = fileName;
+        var timeStamp=new Date();
+        ite.ptr().img.src = fileName+"?timeStamp="+timeStamp;
         return;
       }
     }
@@ -114,7 +115,8 @@ export class LAppTextureManager {
 
       callback(textureInfo);
     };
-    img.src = fileName;
+    var timeStamp=new Date();
+    img.src = fileName+"?timeStamp="+timeStamp;
   }
 
   /**

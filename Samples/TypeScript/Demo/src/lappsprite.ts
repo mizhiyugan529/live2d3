@@ -151,6 +151,10 @@ export class LAppSprite {
       this._firstDraw = false;
     }
 
+    // 透過設定
+    gl.enable(gl.BLEND);
+    gl.blendFunc(gl.SRC_ALPHA, gl.ONE_MINUS_SRC_ALPHA);
+
     // UV座標登録
     gl.bindBuffer(gl.ARRAY_BUFFER, this._uvBuffer);
     gl.bufferData(gl.ARRAY_BUFFER, this._uvArray, gl.STATIC_DRAW);

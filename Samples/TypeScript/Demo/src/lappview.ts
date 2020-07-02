@@ -135,7 +135,7 @@ export class LAppView {
 
       textureManager.createTextureFromPngFile(
           resourcesPath + imageName,
-          false,
+          true,
           initBackGroundTexture
       );
     }

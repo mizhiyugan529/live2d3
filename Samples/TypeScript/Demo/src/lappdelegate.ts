@@ -158,7 +158,8 @@ export class LAppDelegate {
       gl.depthFunc(gl.LEQUAL);
 
       // 清除彩色缓冲区和深度缓冲区  （加上这一句会导致有些浏览器背景变成黑色，而不是透明）
-      gl.clear(gl.COLOR_BUFFER_BIT | gl.DEPTH_BUFFER_BIT);
+      // gl.clear(gl.COLOR_BUFFER_BIT | gl.DEPTH_BUFFER_BIT);
+      // gl.clear(gl.COLOR_BUFFER_BIT);
 
       gl.clearDepth(1.0);
 

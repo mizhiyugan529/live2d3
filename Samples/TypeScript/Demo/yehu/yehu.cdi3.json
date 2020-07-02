@@ -1,0 +1,72 @@
+{
+	"Version": 3,
+	"Parameters": [
+		{
+			"Id": "ParamBreath",
+			"GroupId": "",
+			"Name": "呼吸"
+		},
+		{
+			"Id": "ParamAngleX",
+			"GroupId": "",
+			"Name": "角度 X"
+		},
+		{
+			"Id": "ParamBodyAngleX",
+			"GroupId": "",
+			"Name": "身体旋转　X"
+		},
+		{
+			"Id": "ParamEyeLOpen",
+			"GroupId": "",
+			"Name": "左眼　开闭"
+		},
+		{
+			"Id": "ParamEyeROpen",
+			"GroupId": "",
+			"Name": "右眼"
+		},
+		{
+			"Id": "Param_weiba",
+			"GroupId": "",
+			"Name": "weiba"
+		},
+		{
+			"Id": "Param_youer",
+			"GroupId": "",
+			"Name": "youer"
+		},
+		{
+			"Id": "Param_zuoer",
+			"GroupId": "",
+			"Name": "zuoer"
+		}
+	],
+	"ParameterGroups": [],
+	"Parts": [
+		{
+			"Id": "zuoer_Skinning",
+			"Name": "zuoer(蒙皮)"
+		},
+		{
+			"Id": "Part2",
+			"Name": "zuoer(回转)"
+		},
+		{
+			"Id": "youer_Skinning",
+			"Name": "youer(蒙皮)"
+		},
+		{
+			"Id": "Part",
+			"Name": "youer(回转)"
+		},
+		{
+			"Id": "weiba_Skinning",
+			"Name": "weiba(蒙皮)"
+		},
+		{
+			"Id": "Part3",
+			"Name": "weiba(回转)"
+		}
+	]
+}

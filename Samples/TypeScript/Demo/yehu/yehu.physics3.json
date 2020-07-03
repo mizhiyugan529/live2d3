@@ -2,8 +2,8 @@
 	"Version": 3,
 	"Meta": {
 		"PhysicsSettingCount": 1,
-		"TotalInputCount": 1,
-		"TotalOutputCount": 1,
+		"TotalInputCount": 2,
+		"TotalOutputCount": 0,
 		"VertexCount": 2,
 		"EffectiveForces": {
 			"Gravity": {
@@ -18,7 +18,7 @@
 		"PhysicsDictionary": [
 			{
 				"Id": "PhysicsSetting1",
-				"Name": "normal"
+				"Name": "idle"
 			}
 		]
 	},
@@ -31,24 +31,21 @@
 						"Target": "Parameter",
 						"Id": "ParamAngleX"
 					},
-					"Weight": 100,
+					"Weight": 60,
+					"Type": "X",
+					"Reflect": false
+				},
+				{
+					"Source": {
+						"Target": "Parameter",
+						"Id": "ParamBodyAngleX"
+					},
+					"Weight": 40,
 					"Type": "X",
 					"Reflect": false
 				}
 			],
-			"Output": [
-				{
-					"Destination": {
-						"Target": "Parameter",
-						"Id": "Param_weiba"
-					},
-					"VertexIndex": 1,
-					"Scale": 9.719,
-					"Weight": 100,
-					"Type": "Angle",
-					"Reflect": true
-				}
-			],
+			"Output": [],
 			"Vertices": [
 				{
 					"Position": {
@@ -63,24 +60,24 @@
 				{
 					"Position": {
 						"X": 0,
-						"Y": 10
+						"Y": 3
 					},
-					"Mobility": 0.99,
-					"Delay": 1,
-					"Acceleration": 1,
-					"Radius": 10
+					"Mobility": 0.95,
+					"Delay": 0.9,
+					"Acceleration": 1.5,
+					"Radius": 3
 				}
 			],
 			"Normalization": {
 				"Position": {
-					"Minimum": -29.8,
+					"Minimum": -10,
 					"Default": 0,
-					"Maximum": 31.1
+					"Maximum": 10
 				},
 				"Angle": {
-					"Minimum": -30,
+					"Minimum": -10,
 					"Default": 0,
-					"Maximum": 30
+					"Maximum": 10
 				}
 			}
 		}

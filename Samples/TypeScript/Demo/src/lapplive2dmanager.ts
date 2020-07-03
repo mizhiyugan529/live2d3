@@ -178,7 +178,7 @@ export class LAppLive2DManager {
 
     // ModelDir[]に保持したディレクトリ名から
     // model3.jsonのパスを決定する。
-    // ディレクトリ名とmodel3.jsonの名前を一致させておくこと。
+    // ディレクトリ名とmodel3.ijsonの名前を一致させておくこと。
     const model: string = LAppDefine.ModelDir[index];
     const modelPath: string = LAppDefine.ResourcesPath + model + '/';
     let modelJsonName: string = LAppDefine.ModelDir[index];

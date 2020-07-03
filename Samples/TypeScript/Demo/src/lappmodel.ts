@@ -86,7 +86,6 @@ export class LAppModel extends CubismUserModel {
    */
   public loadAssets(dir: string, fileName: string): void {
     this._modelHomeDir = dir;
-
     fetch(`${this._modelHomeDir}/${fileName}`)
       .then(response => response.arrayBuffer())
       .then(arrayBuffer => {

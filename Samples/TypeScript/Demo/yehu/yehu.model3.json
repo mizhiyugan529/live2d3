@@ -45,13 +45,17 @@
 				}
 			]
 		},
+		"Physics": "yehu.physics3.json",
 		"DisplayInfo": "yehu.cdi3.json"
 	},
 	"Groups": [
 		{
 			"Target": "Parameter",
 			"Name": "EyeBlink",
-			"Ids": []
+			"Ids": [
+				"ParamEyeLOpen",
+				"ParamEyeROpen"
+			]
 		}
 	]
 }

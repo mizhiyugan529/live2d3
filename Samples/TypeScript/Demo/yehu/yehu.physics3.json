@@ -46,7 +46,7 @@
 					"Scale": 20,
 					"Weight": 100,
 					"Type": "Angle",
-					"Reflect": false
+					"Reflect": true
 				}
 			],
 			"Vertices": [
